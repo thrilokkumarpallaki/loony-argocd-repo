@@ -8,8 +8,8 @@ metadata:
 spec:
 	ports:
 	- port: 80
-	  protocol: TCP
-	  targetPort: 90
+		protocol: TCP
+		targetport: 90
 	selector:
 		app: nginx
 	type: NodePort
